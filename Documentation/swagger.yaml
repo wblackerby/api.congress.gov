@@ -3497,19 +3497,19 @@ components:
     AmendmentActions:
       type: array
       items:
-        - $ref: '#/components/schemas/amendmentActions'
+          $ref: '#/components/schemas/amendmentActions'
     AmendmentCosponsors:
       type: array
       items:
-        - $ref: '#/components/schemas/CoSponsor'
+        $ref: '#/components/schemas/CoSponsor'
     AmendmentAmendments:
       type: array
       items:
-        - $ref: '#/components/schemas/Amendment'
+        $ref: '#/components/schemas/Amendment'
     AmendmentText:
       type: array
       items:
-        - $ref: '#/components/schemas/textVersions'
+        $ref: '#/components/schemas/textVersions'
     summaryBill:
       type: object
       properties:
